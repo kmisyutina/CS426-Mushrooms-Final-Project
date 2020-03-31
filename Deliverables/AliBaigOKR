@@ -1,0 +1,3 @@
+- Setup player movement controller
+- Sync co-op player movement with xbox controllers
+- Implement the timer via Unity Coroutines
