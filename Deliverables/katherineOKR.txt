@@ -1,0 +1,5 @@
+-barebones 2d character + movement 1hr
+-2d character can lower both arms with 2 buttons 2hr
+-dummy character follows player within some constant distance 1hr
+-when button is pressed, net is created which attaches between player character hands and dummy 2hr
+-net properly lowers and raises, is able to gather objects 5hr
