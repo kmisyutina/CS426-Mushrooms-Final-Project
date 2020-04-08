@@ -10,10 +10,11 @@ the nature and outdoors theme of this level design. The human walking around
 is like a giant. The mushrooms must avoid this obstacle unless they want
 to get stepped on.
 
-The mushrooms must try to avoid traps, like the spinning windmind, which can
-move resources around and knock the mushrooms off. They must also look around
-for hidden areas that may hide more resources, like in high places they cannot
-reach but must figure out how to get to those resources.
+They must look around for hidden areas that may hide more resources, 
+like in high places they cannot reach but must figure out how to get 
+to those resources. In doing so, they must also watch out for traps,
+like the different enemies and the spinning windmill, which moves resources and
+knock the mushrooms over.
 
 The sounds in this level are ambient and quiet. The sound of crackling fire,
 the sound of a river, and other ambient sounds add to the atmosphere that
