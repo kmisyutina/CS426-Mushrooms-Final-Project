@@ -1,0 +1,4 @@
+Deliverables for 4/1/2020:
+- Design level for prototype demo -- Tuesday night (estimate 1-2 hours)
+- Sketch a level following level design principals -- Tuesday night (estimate 2-3 hours)
+- Make list detailing sketched level components -- Tuesday night (estimate 1 hour) 
