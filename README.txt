@@ -3,9 +3,9 @@ mushrooms trying to gather food for their village.
 
 The terrain of the level is outdoors, because that's where the mushrooms live.
 The campfire area is reminiscent of people going camping (where they may
-inevitable leave their food behind).
+inevitably leave their food behind).
 
-The enemies in this level are bugs like ants and bees, which fits in with
+The enemies in this level are bugs, such as ants and bees, which fit in with
 the nature and outdoors theme of this level design. The human walking around
 is like a giant. The mushrooms must avoid this obstacle unless they want
 to get stepped on.
