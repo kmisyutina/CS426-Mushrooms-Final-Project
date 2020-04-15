@@ -17,7 +17,7 @@ public class BeeAI : MonoBehaviour
 
     // variables for patrolling
     public GameObject[] waypoints;
-    public GameObject waypointParent;
+    public GameObject nest;
     private int waypointInd = 0;
     public float patrolSpeed = 0.5f;
 
@@ -38,7 +38,6 @@ public class BeeAI : MonoBehaviour
 
         // START FSM in a background process
         StartCoroutine("FSM");
-        Debug.Log("Starting FSM");
     }
 
     IEnumerator FSM() {
@@ -56,7 +55,6 @@ public class BeeAI : MonoBehaviour
     }
 
     void Patrol() {
-        Debug.Log("Patroling..");
         agent.speed = patrolSpeed;
         if (Vector3.Distance(this.transform.position, waypoints[waypointInd].transform.position) >= 1) {
             Quaternion newRotation = Quaternion.LookRotation(waypoints[waypointInd].transform.position - this.transform.position);
@@ -78,12 +76,10 @@ public class BeeAI : MonoBehaviour
     }
 
     void Chase() {
-        Debug.Log("Chasing state");
         agent.speed = chaseSpeed;
         agent.SetDestination(target.transform.position + new Vector3(0, 0, .5f));
 
-        float dist = Vector3.Distance(this.transform.position, waypointParent.transform.position);
-        Debug.Log("How far Bee is from home: " + dist);
+        float dist = Vector3.Distance(this.transform.position, nest.transform.position);
 
         // if the bee gets really far away from its nest, then let it go back to patrol state
         if (dist > 15f)
@@ -91,7 +87,6 @@ public class BeeAI : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        Debug.Log("Collided!");
 
         if (other.tag == "Player") {
             state = BeeAI.State.CHASE;
