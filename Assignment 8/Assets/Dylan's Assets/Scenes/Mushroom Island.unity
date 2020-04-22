@@ -53209,7 +53209,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253040917}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 55488a712f3e42d408d5dd8fe9eafbf3, type: 3}
@@ -82218,6 +82218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880097804}
   - component: {fileID: 1880097803}
+  - component: {fileID: 1880097805}
   m_Layer: 0
   m_Name: TimeManager
   m_TagString: Untagged
@@ -82232,7 +82233,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880097802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2022c2b9af73d1f4db81bcab5e694a3c, type: 3}
   m_Name: 
@@ -82255,6 +82256,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1880097805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880097802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b23e2188fad67489df640687304fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1585654921}
+  maxTimeInSeconds: 300
+  backgroundMusic: {fileID: 1264430113}
+  gameover: {fileID: 1356905548}
 --- !u!1001 &1880171219
 PrefabInstance:
   m_ObjectHideFlags: 0
