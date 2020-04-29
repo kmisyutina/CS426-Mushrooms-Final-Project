@@ -34,8 +34,8 @@ public class Score : MonoBehaviour
         score--;
 
         if (score >= 0)
-            scoreText.text = "Score: " + score;
+            scoreText.text = score + "/" + maxScore;
         else
-            scoreText.text = "Score: " + 0;
+            scoreText.text = 0 + "/" + maxScore;
     }
 }

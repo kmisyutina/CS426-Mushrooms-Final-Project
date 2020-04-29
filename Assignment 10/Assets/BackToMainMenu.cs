@@ -12,7 +12,7 @@ public class BackToMainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(text.text == "You won!")
+        if(text.text == "4/4")
         {
             StartCoroutine(BackToMain());
         }
